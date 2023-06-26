@@ -8,6 +8,6 @@ Demonstrated skills:
 - CSS
     * Flexbox
 
-Live Demo: https://github.com/pablomattot/landing-page.git
+Live Demo: https://lpala96.github.io/landing-page/
 
 Picture from https://www.pexels.com/
