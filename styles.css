@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 .nav-container{
     width: 100%;
     margin: 0 auto;
@@ -38,29 +39,33 @@
     align-items: center;
     width: 100%;
     height: auto;
-    gap:32px;
-    margin: 20px 20px;
+    padding: 8px 16px;
+    margin-bottom: 32px;
+    
 }
 
 .para {
     display: flex;
     flex-direction: column;
-    width: 300px;
+    width: 400px;
     margin: 16px;
     gap: 8px;
+    position: relative;
 }
 
 .img {
-    width: 300px;
-    height: auto;
-    align-self: flex-end;
-    flex:5;
-    margin: 16px
+    width: 400px;
+    max-width: 50%;
+    /* flex:5; */
+    position: relative;
+    
 }
 
 img {
+    display: flex;
     width: 100%;
-    height: auto;
+    height: 100%;
+    
 
 }
 
@@ -70,6 +75,12 @@ button {
    border-radius: 8px;
    padding: 8px 16px;
    width: 100px;
+}
+
+.signup .button {
+    border: solid 1px white;
+    padding: 8px 16px;
+    width: 100px;
 }
 
 .info {
@@ -108,5 +119,75 @@ button {
 
 .info-title {
    text-align: center; 
+}
+
+.quote{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#E5E7EB ;
+    color: #1F2937;
+    width: 100%;
+}
+
+.quote-box {  
+    display: flex;
+    flex-flow: column;
+    margin: 40px;
+    width: auto;
+}
+
+.quote-text {
+    font-size: 25px;
+    padding: 16px;
+    text-align: center;
+    font-style: italic;
+}
+
+.quote-author {
+    align-self: self-end;
+}
+
+.container-signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    width: 100%;
+}
+
+.box-signup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 20px;
+}
+
+.signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 40px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    width: 100%;
+    padding: 10px 40px;
+}
+
+.action {
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    padding: 32px;
 }
 
