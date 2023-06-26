@@ -4,13 +4,15 @@
     box-sizing: border-box;
 }
 
-
+.mock {
+    background-color: #1F2937;
+}
 .nav-container{
     width: 100%;
     margin: 0 auto;
-    background-color: #1F2937;
     padding: 12px; 
     color: white;
+    max-width: 800px; 
 }
 
 .nav {
@@ -121,26 +123,31 @@ button {
    text-align: center; 
 }
 
+.mock2 {
+    background-color:#E5E7EB ;
+    display: flex;
+    justify-content: center;
+}
+
 .quote{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:#E5E7EB ;
     color: #1F2937;
     width: 100%;
+    max-width: 800px;
 }
 
 .quote-box {  
     display: flex;
     flex-flow: column;
     margin: 40px;
-    width: auto;
+    
 }
 
 .quote-text {
     font-size: 25px;
     padding: 16px;
-    text-align: center;
     font-style: italic;
 }
 
