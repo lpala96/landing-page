@@ -123,6 +123,8 @@ button {
 .fact {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     color: darkgray;
     font-size: 12px;
     max-width: 200px;
